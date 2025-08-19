@@ -69,7 +69,7 @@ function App() {
 
   } , [])
   function callOnce() {
-    console.log("callOnce function called");
+    console.log("CallOnce function called");
     
   }
 
