@@ -73,10 +73,10 @@ function App() {
 
   }
 
-  function Call() {
-    console.log("Call function called");
+  // function Call() {
+  //   console.log("Call function called");
 
-  }
+  // }
 
   callOnce()
 
