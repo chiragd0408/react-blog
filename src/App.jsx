@@ -61,29 +61,36 @@ import { useEffect, useState } from "react";
 // }
 
 
+// function App() {
+
+//   const [counter, setCounter] = useState(0)
+
+//   useEffect(() => {
+
+//   }, [])
+//   function callOnce() {
+//     console.log("CallOnce function called");
+
+//   }
+
+//   callOnce()
+
+//   return (
+//     <div>
+//       <h1>useEffect Hook</h1>
+//       <button onClick={() => setCounter(counter + 1)}>Counter {counter}</button>
+//     </div>
+//   )
+// }
+
 function App() {
 
-  const [counter, setCounter] = useState(0)
-
-  useEffect(() => {
-
-  }, [])
-  function callOnce() {
-    console.log("CallOnce function called");
-
-  }
-
-  // function Call() {
-  //   console.log("Call function called");
-
-  // }
-
-  callOnce()
-
-  return (
+  return(
     <div>
-      <h1>useEffect Hook</h1>
-      <button onClick={() => setCounter(counter + 1)}>Counter {counter}</button>
+      <h1>useFormStatus Hook in React</h1>
+      <form action="">
+        
+      </form>
     </div>
   )
 }
